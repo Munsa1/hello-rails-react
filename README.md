@@ -1,6 +1,6 @@
-# BUDGET APP
+# Hello-Rai;s-React App
 
-The Budget app is a mobile application, where we can manage your budget: we have a list of transactions associated with a category, so that we can see how much money you spent and on what.
+The Hello-Rai;s-React app is an API application setup in one repository, using React.js framework and Ruby on rails MVC.
 
 
 
