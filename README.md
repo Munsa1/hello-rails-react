@@ -1,24 +1,105 @@
-# README
+# BUDGET APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Budget app is a mobile application, where we can manage your budget: we have a list of transactions associated with a category, so that we can see how much money you spent and on what.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- Ruby on Rails
 
-* Database creation
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple example steps.
 
-* Services (job queues, cache servers, search engines, etc.)
+- git clone git@github.com:Munsa1/hello-rails-react.git
 
-* Deployment instructions
+- cd budget-app
 
-* ...
+
+### Prerequisites
+
+Ruby
+Rails
+PostgresSQL
+
+
+### Setup
+
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+```
+
+Start server with:
+
+```
+rails server
+```
+
+Open http://localhost:3000/ in your browser.
+
+
+### Run tests
+
+Install npm with:
+
+```
+npm i
+```
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+
+## Author
+
+👤 **Munsa Mibenge**
+
+- GitHub: [@Munsa1](https://github.com/Munsa1)
+- Twitter: [@MibengeMunsa](https://twitter.com/MibengeMunsa)
+- LinkedIn: [munsa-mibenge](https://www.linkedin.com/in/munsa-mibenge/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Munsa1/hello-rails-react/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+
+## 📝 License
+
+This project is [MIT](./LICENCE) licensed.
